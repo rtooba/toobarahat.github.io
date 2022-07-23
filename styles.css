@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.outer {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-weight: 900;
+}
+
+
+button {
+	font-family: sans-serif;
+	padding: 0.8vw;
+	margin: 1vw 0;
+	font-weight: bold;
+	border: none;
+	border-radius: 2vw;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.dark-heading {
+	color: white;
+}
+
+.dark-bg {
+	background-color: black;
+}
+
+.dark-btn {
+	background-color: white;
+	color: black;
+}
